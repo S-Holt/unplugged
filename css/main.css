@@ -91,6 +91,8 @@ textarea {
  
 html {
   font-size: 16px;
+  color: #e2e3ed;
+
 
 }
  
@@ -154,7 +156,6 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  color: #e2e3ed;
 
 }
 
@@ -186,7 +187,7 @@ header figure {
 }
 
 header nav {
-  width: 60%;
+  width: 30%;
   font-size: 1.125em;
   font-weight: 700;
   text-transform: uppercase;
@@ -228,7 +229,7 @@ footer .contact {
 
 footer .social-icons {
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-evenly;  
   align-items: center;
   
 }
@@ -710,7 +711,8 @@ input[type=button] {
     .contact-content h4 {
       font-size: 1.5em;
     }
-  
+    
+    
     /* ==========================================================================
      FAQ Page
      ========================================================================== */
