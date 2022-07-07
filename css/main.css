@@ -154,6 +154,8 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  color: #e2e3ed;
+
 }
 
 header {
@@ -198,10 +200,12 @@ header nav ul {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  padding-left: 0;
 }
 
 header nav ul li {
   font-size: 1.125em;
+  padding-right: 1em;
 }
 
 footer {
@@ -224,19 +228,29 @@ footer .contact {
 
 footer .social-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;  
   align-items: center;
+  
 }
 
 footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }
 
 footer .copyright {
   margin: 20px 0;
 }
+
+footer .social-icons p i {
+  font-size: 1.3125em;
+}
+
 /* -------------------- Mobile Styles - Homepage -------------------- */
 
 /* Hero Area */
@@ -298,16 +312,19 @@ input[type=button] {
 /* Features */
 
 .features {
-  background: url('../img/unplugged-retreat-features.jpg');
+  background: url('../img/rawpixel-800820-unsplash172.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  color: #e2e3ed;
+
 }
 
 .features h2 {
   margin-bottom: 60px;
+
 }
 
 .features article {
@@ -320,6 +337,7 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+
 }
 
 .features i {
@@ -339,11 +357,14 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  color: #e2e3ed;
+
 }
 
 .reviews h2 {
   margin-bottom: 40px;
   line-height: 1;
+
 }
 
 .reviews h3 {
@@ -551,7 +572,8 @@ input[type=button] {
     }
   
     header nav ul {
-      justify-content: space-between;
+      padding-right: .5em;
+
     }
   
     .header-divider {
@@ -650,6 +672,11 @@ input[type=button] {
     footer .copyright {
       width: 100%;
     }
+    footer .social-icons {
+      width: 12.5em;
+      justify-content: space-between;
+    }
+  
   
     /* ==========================================================================
      About Page
